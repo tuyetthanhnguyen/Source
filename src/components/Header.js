@@ -7,8 +7,7 @@ import NavbarTop from "./NavbarTop"
 
 const StyledHeader = styled.div`
 .header{
-    /* height: 400px; */
-    background-color: yellow;
+    font-size: 21px;
 }
 `
 
@@ -16,7 +15,7 @@ const StyledHeader = styled.div`
 function Header() {
     return (
         <StyledHeader>
-            <div className='header'>
+            <div className='container header'>
                 <NavbarTop />
                 <NavbarBot />
             </div>
